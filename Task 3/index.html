@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+        
+        <link rel="stylesheet" href="index.css">
+        <script src="script.js"></script>
+
+    </head>
+    <body>
+        
+      <Center>  
+      <Center><h2>STUDENT REGISTRATION FORM</h2>
+          
+    </Center>
+    
+        
+        <table border="4">
+            <thead>
+                <tr>
+                    <th> First Name</th>
+                    <td><input type="text" name="fname" id="fname" required></td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Last Name</th>
+                    <td><input type="text" name="lname" id="lname" required></td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="text" name="email" id="email" required ></td>
+                </tr>
+                <tr>
+                    <th>Address</th>
+                    <td><input type="text" name="address" id="address" required ></td>
+                </tr>
+                <tr>
+                    <th>Age</th>
+                    <td><input type="text" name="age" id="age" required></td> 
+                </tr>
+            
+                <tr id="btna">
+                    <td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddData()"></td>
+                </tr>
+
+            
+            </tbody>
+        </table>
+      <H2> STUDENTS DATA</H2>
+        <table border="4" id="Show">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Adress</th>
+                    <th>Age</th>
+                </tr>
+
+            </thead>
+        
+        </table>
+        </center>
+    </body>
+</html>

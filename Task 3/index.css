@@ -1,0 +1,20 @@
+body{
+    background-color: gray;
+}
+
+table{
+ margin-top: 50px;
+ text-align: center;
+ background: plum;
+ color: rgb(0,0,0);
+}
+
+#Show th, #Show td{
+ padding: 13px;
+
+}
+
+#btn td input{
+    width: 100%;
+    background-color: beige;
+}
